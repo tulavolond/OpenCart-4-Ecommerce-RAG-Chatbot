@@ -1,5 +1,3 @@
-# OpenCart-4-Ecommerce-RAG-Chatbot
-OpenCart-4-Ecommerce-RAG-Chatbot
 # E-Commerce RAG Chatbot
 
 A Retrieval-Augmented Generation (RAG) based chatbot system for e-commerce product search and order management. The system provides semantic search capabilities for products and handles order queries through a conversational interface.
@@ -179,8 +177,4 @@ Key dependencies:
 - sentence-transformers: Semantic search
 - pandas: Data processing
 - pytest: Testing
-<<<<<<< HEAD
 - uvicorn: ASGI server
-=======
-- uvicorn: ASGI server
->>>>>>> c24840e (ои первые изменения)
