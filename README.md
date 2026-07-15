@@ -102,15 +102,15 @@ python load_data_from_opencart_1.py
 6. Start server:
 ```bash
 python -m uvicorn src.api.main:app --reload
-or
-python -m uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --workers 4
-# Edit .env with your configuration
 ```
-
-7. Get data in json:
+6. Start server:
+```bash
+python -m uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --workers 4
+```
+7. # Edit .env with your configuration
 ```bash
 python load_data_from_opencart_1.py
-# Edit .env with your configuration
+
 ```
 
 ## Data Setup
