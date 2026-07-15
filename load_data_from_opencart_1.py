@@ -1,11 +1,11 @@
 # scripts/load_data_from_opencart.py
-import mysql.connector
-import pandas as pd
+import mysql.connector # pyright: ignore[reportMissingImports]
+import pandas as pd # type: ignore
 import pickle
 import os
 import re  # Добавлено для очистки HTML
-from sentence_transformers import SentenceTransformer
-from dotenv import load_dotenv
+from sentence_transformers import SentenceTransformer # type: ignore
+from dotenv import load_dotenv # type: ignore
 import logging
 
 # Настройка логирования
