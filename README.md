@@ -1,5 +1,14 @@
 # OpenCart-4-Ecommerce-RAG-Chatbot
-OpenCart-4-Ecommerce-RAG-Chatbot
+OpenCart-4-Ecommerce-RAG-Chatbot 
+В данном примере реализована загрузка данных из базы данных OpenCart 4
+Пример работы кода можно посмотреть на мультирегиональном сайте https://kupeli-plazar.ru ы виде виджета.
+Если у Вас появятся вопросы с реализацией кода можете обращаться, помогу
+
+This example implements loading data from the OpenCart 4 database
+An example of how the code works can be viewed on the multi-regional website https://kupeli-plazar.ru in the form of a widget.
+If you have any questions about the implementation of the code, you can contact me, I will help
+
+
 # E-Commerce RAG Chatbot
 
 A Retrieval-Augmented Generation (RAG) based chatbot system for e-commerce product search and order management. The system provides semantic search capabilities for products and handles order queries through a conversational interface.
@@ -81,7 +90,26 @@ pip install -r requirements.txt
 
 4. Create environment file:
 ```bash
-cp .env.example .env
+cp .env_local .env
+# Edit .env with your configuration
+```
+5. Create .pkl file:
+```bash
+python load_data_from_opencart_1.py
+# Create *.pkl file
+```
+
+6. Start server:
+```bash
+python -m uvicorn src.api.main:app --reload
+or
+python -m uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --workers 4
+# Edit .env with your configuration
+```
+
+7. Get data in json:
+```bash
+python load_data_from_opencart_1.py
 # Edit .env with your configuration
 ```
 
