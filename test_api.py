@@ -4,7 +4,7 @@ import json
 
 url = "http://localhost:8000/api/v1/chat"
 data = {
-    "question": "Купель с печью от 100 000 до 300 000",
+    "question": "Купель с печью от 200 000 до 500 000",
     "limit": 5
 }
 
