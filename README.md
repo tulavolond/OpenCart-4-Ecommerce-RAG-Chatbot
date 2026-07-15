@@ -1,7 +1,7 @@
 # OpenCart-4-Ecommerce-RAG-Chatbot
 OpenCart-4-Ecommerce-RAG-Chatbot 
 В данном примере реализована загрузка данных из базы данных OpenCart 4
-Пример работы кода можно посмотреть на мультирегиональном сайте https://kupeli-plazar.ru ы виде виджета.
+Пример работы кода можно посмотреть на мультирегиональном сайте https://kupeli-plazar.ru виде виджета.
 Если у Вас появятся вопросы с реализацией кода можете обращаться, помогу
 
 This example implements loading data from the OpenCart 4 database
