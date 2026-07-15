@@ -87,16 +87,14 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-
+# Edit .env with your configuration
 4. Create environment file:
 ```bash
 cp .env_local .env
-# Edit .env with your configuration
 ```
 5. Create .pkl file:
 ```bash
 python load_data_from_opencart_1.py
-# Create *.pkl file
 ```
 
 6. Start server:
